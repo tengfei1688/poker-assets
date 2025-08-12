@@ -1,0 +1,6 @@
+# Adjustable parameters
+video_path: "SVID_20250810_221405_1.mp4"  # replace if needed
+fps: 2.0
+max_frames: 0        # 0 = unlimited
+scale_width: 720     # 0 = no scaling; 640/720 recommended for size control
+dedup_threshold: 8   # lower = stricter (more dedup); 6–10 is typical

@@ -1,0 +1,12 @@
+# virtual env
+.venv/
+
+# caches and outputs
+.cache/
+frames_raw/
+frames_clean/
+outputs/
+
+# OS files
+.DS_Store
+Thumbs.db

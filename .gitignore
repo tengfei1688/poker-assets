@@ -1,0 +1,17 @@
+# virtual env
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# caches and outputs
+.cache/
+frames_raw/
+frames_clean/
+outputs/
+
+# OS files
+.DS_Store
+Thumbs.db

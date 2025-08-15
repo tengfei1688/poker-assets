@@ -72,7 +72,7 @@ jobs:
         id: key
         run: |
           python - <<'PY'
-          import hashlib, pathlib, yaml
+          import os, hashlib, pathlib, yaml
           cfg = yaml.safe_load(pathlib.Path("config.yaml").read_text())
           h = hashlib.sha256()
           for k in ("video_path","fps","scale_width","dedup_threshold"):
